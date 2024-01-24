@@ -12,7 +12,7 @@ server = app.server
 # Parámetros iniciales
 PrecioSubyacenteS = [5, 6.5, 8, 9.5, 11, 12.5, 14, 15.5, 17, 18.5, 20, 21.5, 23, 24.5, 26, 27.5, 29]
 PrecioPactadoK = [5, 6.5, 8, 9.5, 11, 12.5, 14, 15.5, 17, 18.5, 20, 21.5, 23, 24.5, 26, 27.5, 29]
-len_args = len(inspect.getfullargspec(func)[0]
+len_args = len(inspect.getargspec(func)[0])
                
 # Layout de la aplicación
 app.layout = html.Div([
