@@ -7,6 +7,7 @@ import math
 
 # Inicialización de la aplicación Dash
 app = dash.Dash(__name__)
+server = app.server
 
 # Parámetros iniciales
 PrecioSubyacenteS = [5, 6.5, 8, 9.5, 11, 12.5, 14, 15.5, 17, 18.5, 20, 21.5, 23, 24.5, 26, 27.5, 29]
